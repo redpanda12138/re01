@@ -21,6 +21,14 @@ h5{
     color:rgb(103, 101, 101);
 }
 
+h6{
+    font-family:cursive;
+    font-size:small;
+    font-weight: 15;
+    padding-top: 3px;
+    color:rgb(103, 101, 101);
+}
+
 .bar li{
     text-align: center;
     list-style:none;
@@ -43,4 +51,8 @@ h5{
 .picture{
     border-radius: 10%;
     width: 180px;
+}
+
+.card1{
+    float: left;
 }
