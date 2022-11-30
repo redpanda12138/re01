@@ -13,6 +13,14 @@
     float: right;
 }
 
+h4{
+    font-family:cursive;
+    font-size:small;
+    font-weight: 30;
+    padding-top: 3px;
+    color:rgb(103, 101, 101);
+}
+
 h5{
     font-family:cursive;
     font-size:small;
@@ -25,7 +33,7 @@ h6{
     font-family:cursive;
     font-size:small;
     font-weight: 15;
-    padding-top: 3px;
+    padding-top: 2px;
     color:rgb(103, 101, 101);
 }
 
@@ -55,4 +63,14 @@ h6{
 
 .card1{
     float: left;
+}
+
+.fixed
+{
+	position:fixed;
+	bottom: 0px;
+    left: 0px;
+    border: 1px;         /*固定在显示页面的某位置，不随滚动变化*/
+    width: 3000px;
+    height: 80px;
 }
