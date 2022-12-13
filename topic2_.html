@@ -127,7 +127,7 @@
                                     <tr>
                                         <td>1</td>
                                         <td>
-                                            <button class="btn btn-sm" type="button" onclick="playMusic()">
+                                            <button class="btn btn-sm" type="button" onclick="playMusic('//music.163.com/outchain/player?type=2&id=1897927515&auto=1&height=66')">
                                                 <i class="fa fa-play-circle-o" style="font-size:20px;color:gray; "></i>
                                             </button>十年
                                         </td>
@@ -138,7 +138,7 @@
                                     <tr>
                                         <td>2</td>
                                         <td>
-                                            <button class="btn btn-sm" type="button" onclick= "document.getElementById('player').src='//music.163.com/outchain/player?type=2&id=66282&auto=1&height=66' ">
+                                            <button class="btn btn-sm" type="button" onclick= "playMusic('//music.163.com/outchain/player?type=2&id=66282&auto=1&height=66 ')">
                                                 <i class="fa fa-play-circle-o" style="font-size:20px;color:gray; "></i>
                                             </button>浮夸
                                         </td>
@@ -297,8 +297,8 @@
                 <!--主体结束-->
 
                 <!--底部播放栏开始-->
-                <div class="fixed" style="background-color:rgb(255, 255, 255);" id="player">
-                    <iframe frameborder="no" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1897927515&auto=1&height=66"></iframe>
+                <div class="fixed" style="background-color:rgb(255, 255, 255);" >
+                    <iframe id="player" frameborder="no" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1897927515&auto=1&height=66"></iframe>
                 </div>
                 <!--底部播放栏开始-->
 
